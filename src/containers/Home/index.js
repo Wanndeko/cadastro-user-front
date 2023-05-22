@@ -39,7 +39,7 @@ const App = () => {
 
   async function add_new_user() {
 
-    const { data: new_user } = await axios.post('http://localhost:3001/users',
+    const { data: new_user } = await axios.post('https://cadastro-user-back-end.vercel.app/users',
       {
         name: input_name.current.value,
         age: input_age.current.value

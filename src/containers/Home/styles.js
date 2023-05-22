@@ -14,13 +14,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 40px;
-/* height: 100vh; */
+/* height: 100%; */
 
 `;
 
 export const Image = styled.img`
 margin-top: 30px;
-
 
 `;
 

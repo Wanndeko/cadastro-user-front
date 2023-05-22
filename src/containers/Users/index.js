@@ -37,7 +37,7 @@ const User_sg = () => {
 
     async function fetch_users() {
 
-      const { data: response_users } = await axios.get('http://localhost:3001/users');
+      const { data: response_users } = await axios.get('https://cadastro-user-back-end.vercel.app/users');
 
       setUsers(response_users)
     }
@@ -48,7 +48,7 @@ const User_sg = () => {
 
 
   async function delete_user(user_id) {
-    await axios.delete(`http://localhost:3001/users/${user_id}`)
+    await axios.delete(`https://cadastro-user-back-end.vercel.app/users/${user_id}`)
 
     const new_users = users.filter(user => user.id !== user_id)
     setUsers(new_users);

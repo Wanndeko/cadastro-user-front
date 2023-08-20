@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+<h1 align=center>Cadastro de usuarios</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Wanndeko-repo-status](https://img.shields.io/badge/Status-Finished-lightgrey?style=for-the-badge&logo=headspace&logoColor=green&color=lightgrey)
+![Wanndeko-repo-license](https://img.shields.io/github/license/Luk4x/iManager-json-server?style=for-the-badge&logo=unlicense&logoColor=lightgrey)
 
-## Available Scripts
+<h2>Tecnologias🖥️</h2>
+<ul>
+<li><a href=https://pt-br.react.dev/>React.js</a></li>
+<li><a href=https://styled-components.com/>Styled-Components</a></li>
+<li><a href=https://reactrouter.com/en/main/start/tutorial#setup>React-Router-Dom</a></li>
+<li><a href=https://axios-http.com/docs/intro>axios</a></li>
+</ul>
 
-In the project directory, you can run:
+<h2>Descrição📃</h2>
+<p>Esse projeto é a interface de usuário, da <a href=https://github.com/Wanndeko/cadastro-user-back-end>Api-cadastro-user</a>, utilizada para cadastro de usuarios.</p>
 
-### `yarn start`
+<h2>Utilização🛠️</h2>
+<p>Na página inicial há dois campos de entrada de dados, um para cada informação, sendo eles o campo de nome e outro de idade, a confirmação dos dados é feita através do botão "Cadastrar". A informação do cadastro está em uma segunda página que por sua vez mantém os dados até que sejam excluídos, para excluir os usuarios basta apenas clicar no ícone de lixeira que se encontra ao lado direito da caixa de cada cadastro, nessa mesma página possui um botão de "voltar" que permite o usuário retornar a página anterior e assim cadastrar um novo usuario.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Executando na Maquina⚙️</h2>
+<p>Para executar este projeto basta abrir o terminal e digitar git clone copiar e colar o link (https://github.com/Wanndeko/cadastro-user-front.git) e teclar enter. Com o projeto aberto, no terminal do editor de codigo, digite yarn para instalar as dependencias, com tudo pronto digite yarn start e se tudo ocorrer bem o projeto ira abrir no navegador.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
